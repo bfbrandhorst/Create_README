@@ -22,7 +22,7 @@ const questions = [
     {
         type: 'input',
         message: 'Provide detailed instruction for how to install your project and its dependencies.',
-        name: 'Installation Instructions',
+        name: 'Installation',
     },
     {
         type: 'input',
@@ -54,7 +54,7 @@ const questions = [
     {
         type: 'input',
         message: 'Please provide email address',
-        name: 'Email Address',
+        name: 'Email',
     },
     {
         type: 'input',
@@ -66,13 +66,14 @@ const questions = [
 // TODO: Create a function to write README file
 
 function writeToFile(fileName, data) {
-    //fs.writeFileSync()
+    return fs.writeFileSync(path.join(fileName), data)
 }
 
 // TODO: Create a function to initialize app
 
 function init() {
-    inquirer.createPromptModule(questions).then((userAnswers) => {
+    inquirer.prompt(questions).then((userAnswers) => {
+        console.log(userAnswers)
         writeToFile('README.md', generateMarkdown({ ...userAnswers }));
     })
 }
