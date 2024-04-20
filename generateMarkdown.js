@@ -18,87 +18,59 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-    if (license !== 'None') {
+    if (license !== 'none') {
         return `\n ## License \n
-        
+
         This project is licensed under: ${license}`
 
     }
     return '';
 }
 
-// TODO: Create a function to generate markdown for README
+// // TODO: Create a function to generate markdown for README
+
 function generateMarkdown(data) {
+    return `
+# ${data.Title}
+
+## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- ${renderLicenseLink(data.license)}
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Description
+${data.Description}
+
+## Installation
+${data.Installation}
+
+## Usage
+${data.Usage}
+
+## License
+${data.license}
+
+${renderLicenseSection(data.license)}
+
+${renderLicenseBadge(data.license)}
 
 
-    return `# ${data.Title}
+## Contributing
+${data.Contributing}
 
+## Tests
+${data.Testing}
 
-    ## Table of Contents
-
-        - [Description](#description)
-
-        - [Usage](#usage)
-
-        - ${renderLicenseLink(data.license)}
-
-        - [Contributing](#contributing)
-
-        - [Testing](#testing)
-
-        - [Questions](#questions)
-
-    
-    
-    
-    
-    ## Description
-    ${data.Description}
-
-    
-    
-    ## Usage
-    ${data.Usage}
-
-
-
-    ## Installation
-    ${data.Installation}
-
-
-
-    ${renderLicenseSection(data.license)}
-
-
-    ${renderLicenseBadge(data.license)}
-
-
-
-
-    ## Contributing
-    ${data.Contributing}
-
-    
-    
-    ## Testing
-    ${data.Testing}
-
-    
-
-    ## Username
-    ${data.Username}
-
-    
-    
-    ## Questions
-
-    If you have questions email me @ [${data.email}](mailto:${data.email})
-
-   
-    Check out my work here ${data.Username}
-
-    ${data.Questions}
-
+## Questions
+If you have any questions, please feel free to contact me:
+- GitHub: [${data.githubUsername}](https://github.com/${data.githubUsername})
+- Email: ${data.email}
 `;
 }
 
