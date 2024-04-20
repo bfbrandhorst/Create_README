@@ -1,24 +1,24 @@
-# hello,
+# Please Work
 
 
     ## Table of Contents
 
-    * [Description](#description)
+        - [Description](#description)
 
-    * [Usage](#usage)
+        - [Usage](#usage)
 
-    *  [License](#license)
+        - [License](#license)
 
-    * [Contributing](#contributing)
+        - [Contributing](#contributing)
 
-    * [Testing](#testing)
+        - [Testing](#testing)
 
-    * [Questions](#questions)
+        - [Questions](#questions)
 
     
     
     ## Description
-    l
+    
 
     
     
@@ -37,10 +37,10 @@
  ## License 
 
         
-        This project is licensed under MIT
+        This project is licensed under: MIT
 
 
-    ![prior badge](https://img.shields.io/badge/License-MIT-blue.svg)
+    ![badge](https://img.shields.io/badge/License-MIT-blue.svg)
 
 
 
@@ -64,8 +64,9 @@
     
     ## Questions
 
-    If you have questions email me @[undefined](mailto:undefined)
+    If you have questions email me @ [undefined](mailto:undefined)
 
+   
     Check out my work 
 
     
