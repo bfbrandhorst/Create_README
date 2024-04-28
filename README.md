@@ -1,5 +1,5 @@
 
-# Create a README
+# Create a ReadMe
 
 ## Table of Contents
 
@@ -13,13 +13,13 @@
 - [Questions](#questions)
 
 ## Description
-With this application, through using Node in the terminal of your application, the process of creating a high quality README containing all of the pertinent information becomes quick and easy.  Once entering the command of "node index.js" you will be prompted with a list of questions and a pre-formatted table of contents. In a very short amount of time a formatted  and professional README will be available to accompany your project.
+With this application, through using Node in the terminal of your application, the process of creating a high quality README containing all of the pertinent information becomes quick and easy.  Once entering the command of "node index.js" you will be prompted with a list of questions and a pre-formatted table of contents. In a very short amount of time a formatted  and professional README will be available to accompany your project. 
 
 ## Installation
-Once in the correct file, enter the command "node index.js".  The user will then be prompted to provide answers to  questions that will generate a complete README file.
+Once in the terminal, navigate to the desired folder then enter "node index.js" in the command line.
 
 ## Usage
-[Please see attatched video](./Image:Recording/Screen%20Recording%20Node%20Challenge09.mov)
+Once in the application answer prompted questions.  Please refer to walk-through video demonstration @ https://drive.google.com/file/d/1bMwD-oKHwSSunysnNc_aVNKTyGeykyfb/view?usp=drive_link
 
 ## License
 None
@@ -34,7 +34,7 @@ None
 
 
 ## Contributing
-bfBrandhorst is sole contributor/ author.
+bfBrandhorst is sol contributor.
 
 ## Tests
 n/a
@@ -42,4 +42,4 @@ n/a
 ## Questions
 If you have any questions, please feel free to contact me:
 - GitHub: [bfBrandhorst](https://github.com/undefined)
-- Email: see Github account.
+- Email: see GitHub account
