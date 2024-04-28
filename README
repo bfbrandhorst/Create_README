@@ -1,0 +1,14 @@
+For any open source project on GitHub it is important to have a high quality READMDE.  The README must contain essential information about a software or application's project, repository, or directory.  It will often include instructions on how to use the project, project overview, installation guidelines, contributors and other relevant details. 
+
+With this application, through using Node in the terminal of your application, the process of creating a high quality README containing all of the pertinent information becomes quick and easy.  Once entering the command of "node index.js" you will be prompted with a list of questions and a pre-formatted table of contents. In a very short amount of time a formatted  and professional README will be available to accompany your project. 
+
+[Preview Image of README generator](./Image:Recording/Screenshot.png)
+
+
+[Screen recording demonstration of Application](./Image:Recording/Screen%20Recording%20Node%20Challenge09.mov)
+
+
+
+GitHub Link:  https://github.com/bfbrandhorst/Create_README
+
+

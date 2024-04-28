@@ -69,8 +69,8 @@ ${data.Testing}
 
 ## Questions
 If you have any questions, please feel free to contact me:
-- GitHub: [${data.githubUsername}](https://github.com/${data.githubUsername})
-- Email: ${data.email}
+- GitHub: [${data.Username}](https://github.com/${data.githubUsername})
+- Email: ${data.Email}
 `;
 }
 
